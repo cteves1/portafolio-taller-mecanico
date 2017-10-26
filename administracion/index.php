@@ -14,7 +14,41 @@ include 'share/header.php'; ?>
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h3 style="padding: 0; margin: 0; color: black;">Usuarios</h3>
+                            <h3 class="pull-left" style="padding: 0; margin: 0; color: black;">Usuarios</h3>
+                            <button data-toggle="modal" data-target="#addUser" class="btn btn-primary pull-right">Agregar usuario</button>
+                            <div class="modal fade" id="addUser" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <form action="user_add.php" method="POST">
+                                            <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                <h4 class="modal-title" id="myModalLabel">Agregar usuario</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group"><input type="text" name="username" placeholder="Nombre de usuario" class="form-control"></div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group"><input type="text" name="email" placeholder="Correo electrónico" class="form-control"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group"><input type="password" name="password" placeholder="Contraseña" class="form-control"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                <button type="submit" class="btn btn-success">Agregar</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
                         </div>
                         <div class="panel-body">
                             <?php if (mysqli_num_rows($users)>0) { ?>

@@ -12,6 +12,8 @@ $db   = "vivencia_cris";
 $conexion=mysqli_connect("localhost", "root", "");
 $db=mysqli_select_db($conexion, "taller");
 
+date_default_timezone_set('America/Argentina/Buenos_Aires');
+
 /*if (isset($_COOKIE['id_user'])) {
 	$consulta = mysqli_query($conexion, "SELECT * FROM usuarios WHERE id_usuario='{$_COOKIE['id_user']}'");
 }
