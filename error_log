@@ -1,0 +1,214 @@
+[03-Sep-2017 02:09:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:09:10 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:09:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:09:10 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:09:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:09:21 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:09:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:09:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:09:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 13
+[03-Sep-2017 02:09:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:09:28 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:09:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:09:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:09:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:09:44 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:09:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:09:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:09:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 13
+[03-Sep-2017 02:10:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:10:09 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:10:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:10:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:10:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 13
+[03-Sep-2017 02:11:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:11:33 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:11:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:11:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:11:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:11:47 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:11:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:11:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:11:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 13
+[03-Sep-2017 02:17:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:17:43 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:17:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:17:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:18:12 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:18:12 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:18:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:18:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:18:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 13
+[03-Sep-2017 02:27:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:27:06 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:27:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:27:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:27:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:27:18 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:27:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:27:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:27:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 13
+[03-Sep-2017 02:28:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:28:33 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:28:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:28:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:30:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 02:30:19 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 02:30:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 02:30:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 02:30:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 13
+[03-Sep-2017 06:11:18 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:11:18 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:11:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:11:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 06:12:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:12:04 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:12:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:12:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 06:12:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 13
+[03-Sep-2017 06:14:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:14:28 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:14:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:14:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 06:17:24 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:17:24 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:17:24 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:17:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 06:20:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:20:14 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:20:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:20:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 06:20:58 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:20:58 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:20:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:20:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 06:21:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:21:57 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:21:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:21:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 06:22:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:22:26 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:22:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:22:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 06:23:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 06:23:25 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 06:23:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 06:23:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 14:20:41 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 14:20:41 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 14:20:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 14:20:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 19:23:33 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 19:23:33 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 19:23:33 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 19:23:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 22:59:57 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 70
+[03-Sep-2017 23:00:03 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 70
+[03-Sep-2017 23:00:47 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 70
+[03-Sep-2017 23:02:05 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 70
+[03-Sep-2017 23:03:56 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 23:03:56 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 23:03:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 23:03:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 23:04:06 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[03-Sep-2017 23:04:06 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[03-Sep-2017 23:04:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[03-Sep-2017 23:04:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[03-Sep-2017 23:04:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 21
+[04-Sep-2017 01:11:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[04-Sep-2017 01:11:03 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[04-Sep-2017 01:11:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[04-Sep-2017 01:11:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[04-Sep-2017 01:11:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 7
+[04-Sep-2017 01:11:14 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 8
+[04-Sep-2017 01:11:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 16
+[04-Sep-2017 01:11:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 18
+[04-Sep-2017 01:11:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 21
+[04-Sep-2017 01:32:51 UTC] PHP Warning:  require(conexion.php): failed to open stream: No such file or directory in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 2
+[04-Sep-2017 01:32:51 UTC] PHP Warning:  require(conexion.php): failed to open stream: No such file or directory in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 2
+[04-Sep-2017 01:32:51 UTC] PHP Fatal error:  require(): Failed opening required 'conexion.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 2
+[04-Sep-2017 03:48:09 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 71
+[04-Sep-2017 04:28:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 36
+[04-Sep-2017 04:28:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 36
+[04-Sep-2017 04:28:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 36
+[04-Sep-2017 04:28:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 36
+[04-Sep-2017 04:44:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 36
+[04-Sep-2017 04:44:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 36
+[04-Sep-2017 04:45:34 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 36
+[04-Sep-2017 04:50:36 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 36
+[04-Sep-2017 04:54:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:55:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 9
+[04-Sep-2017 04:57:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 8
+[04-Sep-2017 04:57:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 8
+[04-Sep-2017 05:04:35 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 17
+[04-Sep-2017 05:05:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 8
+[04-Sep-2017 05:05:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 8
+[04-Sep-2017 05:06:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 8
+[04-Sep-2017 05:06:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 8
+[04-Sep-2017 05:06:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 8
+[04-Sep-2017 05:07:27 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 8
+[04-Sep-2017 05:08:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 14
+[04-Sep-2017 05:08:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 14
+[04-Sep-2017 05:09:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 14
+[04-Sep-2017 10:40:48 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 22
+[04-Sep-2017 10:41:32 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 22
+[04-Sep-2017 10:41:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 15
+[04-Sep-2017 10:41:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 15
+[04-Sep-2017 10:45:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 15
+[04-Sep-2017 10:46:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, array given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 15
+[04-Sep-2017 11:26:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php:7) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 34
+[04-Sep-2017 11:26:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php:7) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 34
+[04-Sep-2017 12:43:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php:7) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 34
+[04-Sep-2017 18:23:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php:7) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 34
+[04-Sep-2017 18:30:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php:7) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 34
+[05-Sep-2017 00:04:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 12
+[05-Sep-2017 00:04:51 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 13
+[05-Sep-2017 00:04:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 21
+[05-Sep-2017 00:04:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 24
+[05-Sep-2017 00:05:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 12
+[05-Sep-2017 00:05:09 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 13
+[05-Sep-2017 00:05:09 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 21
+[05-Sep-2017 00:05:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 24
+[05-Sep-2017 00:05:37 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 12
+[05-Sep-2017 00:05:37 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 13
+[05-Sep-2017 00:05:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 21
+[05-Sep-2017 00:05:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 24
+[05-Sep-2017 00:05:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 22
+[05-Sep-2017 00:06:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 12
+[05-Sep-2017 00:06:35 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 13
+[05-Sep-2017 00:06:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 21
+[05-Sep-2017 00:06:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 24
+[05-Sep-2017 00:06:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 12
+[05-Sep-2017 00:06:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 14
+[05-Sep-2017 00:06:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php:7) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 34
+[05-Sep-2017 00:07:01 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 12
+[05-Sep-2017 00:07:01 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 13
+[05-Sep-2017 00:07:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 21
+[05-Sep-2017 00:07:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/vivencia/tallerpaisano.vivenciaweb.com/php/conexion.php on line 24
+[06-Sep-2017 21:58:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:1) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 260
+[06-Sep-2017 22:15:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php:7) in /home/vivencia/tallerpaisano.vivenciaweb.com/activar.php on line 34
+[06-Sep-2017 22:15:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:1) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 260
+[06-Sep-2017 22:15:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:1) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 260
+[06-Sep-2017 22:16:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:1) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 260
+[06-Sep-2017 22:47:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:5) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 271
+[06-Sep-2017 22:52:35 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/vivencia/tallerpaisano.vivenciaweb.com/index.php on line 66
+[06-Sep-2017 22:53:31 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/vivencia/tallerpaisano.vivenciaweb.com/index.php on line 66
+[06-Sep-2017 22:53:35 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/vivencia/tallerpaisano.vivenciaweb.com/index.php on line 66
+[06-Sep-2017 22:57:10 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/vivencia/tallerpaisano.vivenciaweb.com/index.php on line 66
+[06-Sep-2017 22:57:13 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/vivencia/tallerpaisano.vivenciaweb.com/index.php on line 66
+[06-Sep-2017 22:58:27 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home/vivencia/tallerpaisano.vivenciaweb.com/index.php on line 66
+[06-Sep-2017 23:01:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:5) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 272
+[06-Sep-2017 23:07:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:5) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 272
+[06-Sep-2017 23:08:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:5) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 272
+[06-Sep-2017 23:09:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/vivencia/tallerpaisano.vivenciaweb.com/session.php:5) in /home/vivencia/tallerpaisano.vivenciaweb.com/session.php on line 272

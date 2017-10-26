@@ -1,0 +1,36 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.producto img{
+	max-width: 100%;
+	height: auto;
+	text-align: center;
+}
+.imagen{
+	max-width: 450px;
+}
+.imagen img{
+	max-width: 40px;
+	border: none;
+}
+.logo{
+	width: 100%;
+	text-align: center;
+	padding-top: 10%;
+}
+.logo img{
+	width: 20%;
+	height: auto;
+}
+
+.producto_botones{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+footer p, h1{
+	color: white;
+}
+.
