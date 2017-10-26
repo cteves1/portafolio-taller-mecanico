@@ -120,7 +120,9 @@ if (isset($_COOKIE['id_admin'])) {
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">El Paisano motorsport</h1>
+                        <h1 class="brand-heading" style="font-size: 3.875em; font-weight: 300; letter-spacing: 0; line-height: 1.16129em; text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000;
+
+-webkit-text-stroke: 2px black;">El Paisano motorsport</h1>
                         
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
@@ -132,7 +134,10 @@ if (isset($_COOKIE['id_admin'])) {
     </header>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" style="margin-top: 10%;">
+        <div class="row"><div class="container text-center" style="padding-top: 3%; color: black;"><h1>¿Por qué elegir el paisano?</h1>
+                <p>Somos profesionales en nuestro trabajo y brindamos la mayor calidad a todos nuestros clientes, extendiendonos en toda la zona y siendo líderes en nuestra ubicación</p></div>
+        </div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
@@ -144,15 +149,15 @@ if (isset($_COOKIE['id_admin'])) {
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="img/awlp1.jpg" alt="Los Angeles">
+                  <img src="img/taller/1.jpg" alt="Los Angeles">
                 </div>
 
                 <div class="item">
-                  <img src="img/awlp2.jpg" alt="Chicago">
+                  <img src="img/taller/2.jpg" alt="Chicago">
                 </div>
 
                 <div class="item">
-                  <img src="img/awlp3.jpg" alt="New York">
+                  <img src="img/taller/3.jpg" alt="New York">
                 </div>
               </div>
 
@@ -170,9 +175,6 @@ if (isset($_COOKIE['id_admin'])) {
 
     <!-- Quienes somos Section -->
     <section id="quienessomos" class="col-md-12" style="color: black;">
-        <div class="row"><div class="container text-center" style="padding-top: 3%;"><h1>¿Por qué elegir el paisano?</h1>
-        <p>Somos profesionales en nuestro trabajo y brindamos la mayor calidad a todos nuestros clientes, extendiendonos en toda la zona y siendo líderes en nuestra ubicación</p></div>
-        </div>
             <div class="row" style="display: flex; align-items: center; justify-content: center; padding: 3%;">
             <div class="col-md-4">
                 <div class="imagen"><img src="img/arreglos.png" alt="" class="thumbnail imgs" style="max-width: 100%;"></div>
