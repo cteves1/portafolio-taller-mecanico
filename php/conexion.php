@@ -19,11 +19,11 @@ $db=mysqli_select_db($conexion, "taller");
 	
 	//Eliminacion de registro
 	
-	$consulta_fecha = mysqli_query($conexion, "SELECT fecha, email FROM registros");	
+	$consulta_fecha = mysqli_query($conexion, "SELECT created_at, email FROM registros");
 
 	
 	while ($registro=mysqli_fetch_assoc($consulta_fecha)) {
-		$fecha=$registro['fecha'];
+		$fecha=$registro['created_at'];
 		$email=$registro['email'];
 		//echo $mail;
 			//echo "Fecha before: ".$fecha;
