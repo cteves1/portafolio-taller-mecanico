@@ -175,7 +175,7 @@
             <div class="col-md-10">
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="img/producto1.png" alt="...">
+                        <img src="img/producto1.jpg" alt="...">
                         <div class="caption" style="text-align: center;">
                             <h3>Neumáticos</h3>
                             <div class="producto_botones" style="padding-top: 50px;">
@@ -187,7 +187,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="img/producto1.png" alt="...">
+                        <img src="img/producto2.jpg" alt="...">
                         <div class="caption" style="text-align: center;">
                             <h3>Neumáticos</h3>
                             <div class="producto_botones" style="padding-top: 50px;">
@@ -199,7 +199,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="img/producto1.png" alt="...">
+                        <img src="img/producto3.jpg" alt="...">
                         <div class="caption" style="text-align: center;">
                             <h3>Neumáticos</h3>
                             <div class="producto_botones" style="padding-top: 50px;">
@@ -210,7 +210,7 @@
                     </div>
                 </div><div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
-                        <img src="img/producto1.png" alt="...">
+                        <img src="img/producto4.jpg" alt="...">
                         <div class="caption" style="text-align: center;">
                             <h3>Neumáticos</h3>
                             <div class="producto_botones" style="padding-top: 50px;">
@@ -223,15 +223,6 @@
             </div>
         </div>
 	</div>
-
-
-
-
-
-
-
-
-
 
 
     <!-- Footer -->

@@ -38,14 +38,35 @@ footer p, h1{
 	align-items: center;
 	justify-content: center;
 	padding: 3%;
-	flex-direction: column-reverse;
 }
-@media (max-width: 400px) {
-	#quienessomos .row{
+@media (max-width: 480px) {
+	#quienessomos .row {
 		flex-direction: column;
 		padding: 0;
 	}
-	#quienessomos #mant{
+
+	#quienessomos .row .col-md-6 {
+		padding: 0;
+	}
+
+	#quienessomos #mant {
 		flex-direction: column-reverse !important;
+	}
+
+	.logo img {
+		width: 60%;
+	}
+}
+@media (max-width: 660px) {
+
+	.landing{
+		text-align: center;
+		margin: 0 auto;
+	}
+	.landing img{
+		max-width:100%;
+		height:auto;
+		text-align: center;
+		margin:0 auto;
 	}
 }

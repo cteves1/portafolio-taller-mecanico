@@ -149,7 +149,7 @@ if (isset($_COOKIE['id_admin'])) {
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
                 <div class="item active">
-                  <img src="img/taller/1.jpg" alt="Los Angeles">
+                  <img src="img/slider.png" alt="Los Angeles">
                 </div>
 
                 <div class="item">
@@ -219,7 +219,7 @@ if (isset($_COOKIE['id_admin'])) {
                 <h3>Neumáticos</h3>
                   <div class="producto_botones" style="padding-top: 50px;">
                     <span class="btn btn-success">$3000</span>
-                    <a href="#" class="btn btn-primary" role="button">Ver más</a>
+                    <a href="productos.php" class="btn btn-primary" role="button">Ver más</a>
                   </div>
               </div>
             </div>
@@ -232,7 +232,7 @@ if (isset($_COOKIE['id_admin'])) {
                 <h3>Amortiguadores</h3>
                 <div class="producto_botones" style="padding-top: 50px;">
                     <span class="btn btn-success">$3000</span>
-                    <a href="#" class="btn btn-primary" role="button">Ver más</a>
+                    <a href="productos.php" class="btn btn-primary" role="button">Ver más</a>
                   </div>
               </div>
             </div>
@@ -245,7 +245,7 @@ if (isset($_COOKIE['id_admin'])) {
                 <h3>Frenos</h3>
                 <div class="producto_botones" style="padding-top: 50px;">
                     <span class="btn btn-success">$3000</span>
-                    <a href="#" class="btn btn-primary" role="button">Ver más</a>
+                    <a href="productos.php" class="btn btn-primary" role="button">Ver más</a>
                   </div>
               </div>
             </div>
