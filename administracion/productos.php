@@ -45,7 +45,7 @@ include 'share/header.php';?>
                                             <td>".$registro["titulo"]."</td>
                                             <td>".$registro["descripcion"]."</td>
                                             <td>".$registro["precio"]."</td>
-                                            <td><img src='".$registro["imagen"]."'></td>
+                                            <td><img src='".$registro["imagen"]."' alt=''></td>
                                             </tr>";
                                     } ?>
                                     </tbody>
