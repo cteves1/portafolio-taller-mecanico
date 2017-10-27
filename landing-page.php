@@ -1,3 +1,27 @@
+<?php
+require 'php/conexion.php';
+if(isset($_GET['id'])){
+    $landing = mysqli_query($conexion,"SELECT * FROM ladingpages WHERE id = '".$_GET['id']."'");
+    if(mysqli_num_rows($landing) < 1){
+        header('Location: index.php');
+    }else{
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $landing = mysqli_fetch_assoc($landing);
+        $chk_viewer = mysqli_query($conexion, "SELECT id FROM newsletters_viewers WHERE ip = '".$ip."' AND id_lading = '".$landing['id']."'");
+        if(mysqli_num_rows($chk_viewer) < 1){
+            $newsletter =  mysqli_query($conexion,"SELECT id FROM newsletters WHERE id_ladingpage = '".$landing['id']."'");
+            $newsletter = mysqli_fetch_assoc($newsletter);
+            $viewer = mysqli_query($conexion, "INSERT INTO newsletters_viewers (id_lading, id_newletter, ip) VALUES('".$landing['id']."', '".$newsletter['id']."', '".$ip."')");
+        }
+        $product = mysqli_query($conexion, "SELECT * FROM products WHERE id = '".$landing['id_product']."'");
+        $product = mysqli_fetch_assoc($product);
+
+    }
+}else{
+    header('Location: index.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -102,20 +126,17 @@
 <div class="container" style="padding-top: 5%; min-height: 900px;">
     <div class="row" style="margin: 0 auto; margin-top: 10%; min-height: 500px;">
         <div class="col-md-12" style="text-align: center;">
-            <h3>Titulo del producto</h3>
+            <h3><?php echo $product['name'];?></h3>
         </div>
         <div class="col-md-4 landing">
-            <img src="img/producto3sale.jpg" alt="">
+            <img src="<?php echo $product['img'] ? $product['img'] : 'img/product-default.jpg';?>" alt="">
         </div>
         <div class="col-md-6">
-            <p style="font-size: 25px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam autem d
-                ebitis eaque et harum incidunt modi nam necessitatibus
-                numquam omnis porro quia quibusdam quidem ratione saepe sequ
-                i, sunt suscipit velit.
+            <p style="font-size: 25px;"><?php echo $product['description'];?>
             </p>
         </div>
         <div class="col-md-12" style="padding-top: 10%; display: flex; justify-content: space-between; width: 80%; margin: 0 auto;">
-            <span class="label label-success" style="font-size: 30px;">$3000</span>
+            <span class="label label-success" style="font-size: 30px;">$ <?php echo $product['price'];?></span>
             <button class="btn btn-primary" style="font-size: 20px;">Agregar <i class="fa fa-shopping-cart" style="font-size: 30px; color: white;"></i></button>
         </div>
     </div>
