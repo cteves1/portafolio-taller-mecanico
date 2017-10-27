@@ -12,6 +12,7 @@
 <script src="vendor/raphael/raphael.min.js"></script>
 <script src="vendor/morrisjs/morris.min.js"></script>
 <script src="data/morris-data.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
 
 <!-- Custom Theme JavaScript -->
 <script src="dist/js/sb-admin-2.js"></script>
