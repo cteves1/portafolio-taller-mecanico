@@ -8,8 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>El taller</title>
+    <style>
+        body{
+            background-color: white;
+        }
+        *{
+            color: black;}
+    </style>
+    <title>Productos</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,10 +37,68 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" style="background: gray;">
+
+<div class="modal fade bs-example-modal-lg" id="producto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Producto numero: 'X'</h4>
+            </div>
+            <div class="modal-body row">
+                <div class="col-md-6 producto">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner producto" role="listbox" style="color: black;">
+                            <div class="item active">
+                                <img src="img/producto1.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="img/producto1.png" alt="...">
+                            </div>
+                            <div class="item">
+                                <img src="img/producto1.png" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Titulo del producto</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam at culpa deleniti distinctio doloremque, eius explicabo
+                        in, itaque laborum maxime molestias nam nisi non nulla numquam
+                        placeat, praesentium rem tempore!</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="col-md-12" style="display: flex; justify-content: space-between;"">
+                    <span class="label label-success" style="font-size: 25px;">$3000</span>
+                    <button class="btn btn-primary">Agregar <i class="fa fa-shopping-cart" style="font-size: 20px; color: white;"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<body style="background: white;">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
@@ -85,12 +149,79 @@
 
 
 
-	<div class="container">
-		<div class="row">
+	<div class="container" style="padding-top: 5%;">
+		<div class="row" style="display: flex; align-items: center;">
 			<div class="col-md-2">
-				<img src="img/logo.png" alt="">
-			</div>
+				<img src="img/logo.png" alt="" style="width: 100%; height: 100%;">
+            </div>
+            <div class="col-md-10">
+                <div class="input-group">
+                    <span class="input-group-addon" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" placeholder="Buscar producto" aria-describedby="basic-addon1">
+                </div>
+            </div>
 		</div>
+        <div class="row">
+            <div class="col-md-2">
+                <nav class="">
+                    <ul style="list-style: circle;">
+                        <li>Neumáticos (5)</li>
+                        <li>Amortiguadores (15)</li>
+                        <li>Lubricantes (20)</li>
+                        <li>Pastillas de frenos (9)</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-10">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/producto1.png" alt="...">
+                        <div class="caption" style="text-align: center;">
+                            <h3>Neumáticos</h3>
+                            <div class="producto_botones" style="padding-top: 50px;">
+                                <span class="btn btn-success">$3000</span>
+                                <a data-target="#producto" data-toggle="modal" class="btn btn-primary" role="button">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/producto1.png" alt="...">
+                        <div class="caption" style="text-align: center;">
+                            <h3>Neumáticos</h3>
+                            <div class="producto_botones" style="padding-top: 50px;">
+                                <span class="btn btn-success">$3000</span>
+                                <a href="#" class="btn btn-primary" role="button">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/producto1.png" alt="...">
+                        <div class="caption" style="text-align: center;">
+                            <h3>Neumáticos</h3>
+                            <div class="producto_botones" style="padding-top: 50px;">
+                                <span class="btn btn-success">$3000</span>
+                                <a href="#" class="btn btn-primary" role="button">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="img/producto1.png" alt="...">
+                        <div class="caption" style="text-align: center;">
+                            <h3>Neumáticos</h3>
+                            <div class="producto_botones" style="padding-top: 50px;">
+                                <span class="btn btn-success">$3000</span>
+                                <a href="#" class="btn btn-primary" role="button">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</div>
 
 
@@ -106,7 +237,7 @@
     <!-- Footer -->
     <footer>
         <div class="col-md-12" style="background: black; text-align: center;">
-            <div class="row">
+            <div class="row" style="color: white;">
                 <p>Telefono: <h1>9999-9999</p></h1>
                 <p style="text-align: bottom;">Copyright &copy; El Paisano - 2017</p>
             </div>
@@ -126,7 +257,7 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.js"></script>
+    <!--<script src="js/grayscale.js"></script>-->
 
 </body>
 

@@ -241,7 +241,7 @@ session_start();
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
+            <p>Copyright &copy; El Paisano - 2017</p>
         </div>
     </footer>
     
@@ -258,7 +258,7 @@ session_start();
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/grayscale.min.js"></script>
+    <!--<script src="js/grayscale.min.js"></script>-->
 	<script>
 		function showPassword() {
     
