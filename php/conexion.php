@@ -83,4 +83,21 @@ $deletes = 0;
         $alert_msg = "Se borraron ".$deletes." registro expirados";
         $alert_type = "success";
     }
+$newsletters = mysqli_query($conexion, "SELECT * FROM newsletters");
+//Eliminacion de newsletters
+$deletesNews = 0;
+while ($newsletter = mysqli_fetch_assoc($newsletters)) {
+    $exp = strtotime($newsletter["exp_at"]);
+
+    if( $exp < time()){
+        $delete_lading = mysqli_query($conexion, "DELETE FROM ladingpages WHERE id='".$newsletter["id_ladingpage"]."'");
+        $borrar= mysqli_query($conexion, "DELETE FROM newsletters WHERE id='".$newsletter["id"]."'");
+        $deletesNews++;
+    }
+}
+if ($deletesNews> 0){
+    $alert = false;
+    $alert_msg = "Se borraron ".$deletesNews." newsletters expirados";
+    $alert_type = "success";
+}
  ?>
