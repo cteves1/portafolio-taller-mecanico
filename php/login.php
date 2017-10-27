@@ -3,10 +3,8 @@ require ("conexion.php");
 
     if (isset($_POST['acceder'])) {
 
-
         $user=$_POST['email'];
         $contraseña=md5($_POST['key']);
-
 
         $consulta=mysqli_query($conexion, "SELECT id_usuario FROM usuarios WHERE (email='".$user."' or nick='".$user."') AND password='".$contraseña."'");
 

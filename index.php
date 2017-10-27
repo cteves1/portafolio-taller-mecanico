@@ -153,11 +153,11 @@ if (isset($_COOKIE['id_admin'])) {
                 </div>
 
                 <div class="item">
-                  <img src="img/taller/2.jpg" alt="Chicago">
+                  <img src="img/slider2.jpg" alt="Chicago">
                 </div>
 
                 <div class="item">
-                  <img src="img/taller/3.jpg" alt="New York">
+                  <img src="img/slider3.jpg" alt="New York">
                 </div>
               </div>
 
