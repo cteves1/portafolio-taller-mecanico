@@ -206,15 +206,13 @@ if (isset($_COOKIE['id_admin'])) {
 
 
 
-
-
     <!--Productos section -->
     <section id="productos" class="col-md-12" style="color: black; min-height: 600px; padding: 10%;">
         <div class="row" style="margin: 0 auto; text-align: center;">
         <h3>¡El taller también dispone de productos!</h3>
           <div class="col-sm-6 col-md-4" style="text-align: center;">
             <div class="thumbnail">
-              <div class="producto"><img src="img/producto1.jpg" alt="..."></div>
+              <div class="producto"><img src="img/products/producto1.jpg" alt="..."></div>
               <div class="caption">
                 <h3>Neumáticos</h3>
                   <div class="producto_botones" style="padding-top: 50px;">
@@ -227,7 +225,7 @@ if (isset($_COOKIE['id_admin'])) {
 
           <div class="col-sm-6 col-md-4" style="text-align: center;">
             <div class="thumbnail">
-              <div class="producto"><img src="img/producto2.jpg" alt="..."></div>
+              <div class="producto"><img src="img/products/producto2.jpg" alt="..."></div>
               <div class="caption">
                 <h3>Amortiguadores</h3>
                 <div class="producto_botones" style="padding-top: 50px;">
@@ -240,7 +238,7 @@ if (isset($_COOKIE['id_admin'])) {
 
           <div class="col-sm-6 col-md-4" style="text-align: center;">
             <div class="thumbnail">
-              <div class="producto"><img src="img/producto3.jpg" alt="..."></div>
+              <div class="producto"><img src="img/products/producto3.jpg" alt="..."></div>
               <div class="caption">
                 <h3>Frenos</h3>
                 <div class="producto_botones" style="padding-top: 50px;">

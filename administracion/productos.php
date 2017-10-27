@@ -41,7 +41,7 @@ include 'share/header.php';?>
                                     </thead>
                                     <tbody>
                                     <?php $i=0; while ($user = mysqli_fetch_assoc($users)) {$i++;
-                                        echo '<tr class="odd gradeX"><td>'.$user['name'].'</td><td style="width: 30%;">'.$user['description'].'</td><td>'.$user['price'].'</td><td><img src="'.$user['image'].'" alt=""></td>
+                                        echo '<tr class="odd gradeX"><td>'.$user['name'].'</td><td style="width: 30%;">'.$user['description'].'</td><td>'.$user['price'].'</td><td><img src="'.$user['icon'].'" alt=""></td>
                                         <td class="text-center">
                                         <div class="btn-group">
                                             <button data-toggle="modal" data-target="#editProduct'.$i.'" class="btn btn-primary"><i class="fa fa-edit"></i></button>
