@@ -7,7 +7,6 @@ include 'share/header.php';?>
         <!-- Navigation -->
         <?php include 'share/menu.php';?>
 
-
     <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
