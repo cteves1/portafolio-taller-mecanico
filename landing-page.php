@@ -2,20 +2,25 @@
 require 'php/conexion.php';
 if(isset($_GET['id'])){
     $landing = mysqli_query($conexion,"SELECT * FROM ladingpages WHERE id = '".$_GET['id']."'");
-    if(mysqli_num_rows($landing) < 1){
-        header('Location: index.php');
-    }else{
-        $ip = $_SERVER['REMOTE_ADDR'];
+    if(mysqli_num_rows($landing) > 0){
         $landing = mysqli_fetch_assoc($landing);
-        $chk_viewer = mysqli_query($conexion, "SELECT id FROM newsletters_viewers WHERE ip = '".$ip."' AND id_lading = '".$landing['id']."'");
-        if(mysqli_num_rows($chk_viewer) < 1){
-            $newsletter =  mysqli_query($conexion,"SELECT id FROM newsletters WHERE id_ladingpage = '".$landing['id']."'");
+        $newsletter =  mysqli_query($conexion,"SELECT id FROM newsletters WHERE id_ladingpage = '".$landing['id']."'");
+        if(mysqli_num_rows($newsletter) > 0) {
+            $ip = $_SERVER['REMOTE_ADDR'];
             $newsletter = mysqli_fetch_assoc($newsletter);
-            $viewer = mysqli_query($conexion, "INSERT INTO newsletters_viewers (id_lading, id_newletter, ip) VALUES('".$landing['id']."', '".$newsletter['id']."', '".$ip."')");
-        }
-        $product = mysqli_query($conexion, "SELECT * FROM products WHERE id = '".$landing['id_product']."'");
-        $product = mysqli_fetch_assoc($product);
 
+            $chk_viewer = mysqli_query($conexion, "SELECT id FROM newsletters_viewers WHERE ip = '" . $ip . "' AND id_lading = '" . $landing['id'] . "'");
+            if (mysqli_num_rows($chk_viewer) < 1) {
+                $viewer = mysqli_query($conexion, "INSERT INTO newsletters_viewers (id_lading, id_newletter, ip) VALUES('" . $landing['id'] . "', '" . $newsletter['id'] . "', '" . $ip . "')");
+            }
+            $product = mysqli_query($conexion, "SELECT * FROM products WHERE id = '" . $landing['id_product'] . "'");
+            $product = mysqli_fetch_assoc($product);
+        }else{
+            $landing = mysqli_query($conexion,"DELETE FROM ladingpages WHERE id = '".$landing['id']."'");
+            header('Location: index.php');
+        }
+    }else{
+        header('Location: index.php');
     }
 }else{
     header('Location: index.php');
