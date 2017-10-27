@@ -11,7 +11,7 @@ include 'share/header.php'?>
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Listado de newlatters</h1>
+                    <h1 class="page-header">Listado de newsletters</h1>
                 </div>
                 <?php if(isset($alert)){?>
                     <div class="col-md-4">
@@ -41,7 +41,7 @@ include 'share/header.php'?>
                                                         <div class="col-md-4">
                                                             <select class="selectpicker form-control" name="landing" title="Selecciona un landing...">
                                                                 <?php $ladings = mysqli_query($conexion, "SELECT ladingpages.id AS id_ladingpage, products.name AS product_name FROM ladingpages LEFT JOIN products ON products.id = ladingpages.id_product GROUP BY ladingpages.id");
-                                                                while ($landing = mysqli_fetch_assoc($ladings)) { echo '<option value="'.$landing['id_ladingpages'].'">'.$landing['product_name'].'</option>'; }?>
+                                                                while ($landing = mysqli_fetch_assoc($ladings)) { echo '<option value="'.$landing['id_ladingpage'].'">'.$landing['product_name'].'</option>'; }?>
                                                             </select>
                                                         </div>
                                                     </div>
@@ -162,7 +162,37 @@ include 'share/header.php'?>
                 <div class="col-md-4">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                <h3 style="padding: 0; margin: 0;">Lading page</h3>
+                                <h3 class="pull-left" style="padding: 0; margin: 0;">Lading page</h3>
+                                <button data-toggle="modal" data-target="#addLadingpage" class="btn btn-primary pull-right">Agregar ladingpage</button>
+                                <div class="clearfix"></div>
+                                <div class="modal fade" id="addLadingpage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <form action="ladingpage_add.php" method="POST">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    <h4 class="modal-title" id="myModalLabel">Agregar ladingpage</h4>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="row">
+                                                        <div class="col-md-6 col-md-offset-3">
+                                                            <select class="selectpicker form-control" name="product" title="Selecciona un producto...">
+                                                                <?php $products = mysqli_query($conexion, "SELECT id, name FROM products");
+                                                                while ($product = mysqli_fetch_assoc($products)) { ?>
+                                                                    <option value="<?php echo $product['id'];?>"><?php echo $product['name']?></option>
+                                                                <?php } ?>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                                    <button type="submit" class="btn btn-success">Agregar</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="panel-body">
                                 <div class="table-responsive">

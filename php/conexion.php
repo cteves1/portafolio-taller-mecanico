@@ -51,6 +51,14 @@ if(isset($_GET['msg'])){
             $alert_msg = "El newsletter fue agregado correctamente.";
             $alert_type = "success";
             break;
+        case 9:
+            $alert_msg = "El newsletter fue editado correctamente.";
+            $alert_type = "success";
+            break;
+        case 9:
+            $alert_msg = "El ladingpage fue creado correctamente.";
+            $alert_type = "success";
+            break;
     }
 }
 
