@@ -9,6 +9,12 @@ include 'share/header.php'; ?>
                 <div class="col-lg-12">
                     <h1 class="page-header">Listado de usuarios</h1>
                 </div>
+
+                <?php if(isset($alert)){?>
+                    <div class="col-md-4">
+                        <div class="alert alert-<?php echo $alert_type?>"><?php echo $alert_msg;?></div>
+                    </div>
+                <?php }?>
             </div>
             <div class="row">
                 <div class="col-lg-12">
@@ -36,6 +42,9 @@ include 'share/header.php'; ?>
                                                 <div class="row">
                                                     <div class="col-md-6">
                                                         <div class="form-group"><input type="password" name="password" placeholder="Contraseña" class="form-control"></div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group"><input type="password" name="password2" placeholder="Confirmar contraseña" class="form-control"></div>
                                                     </div>
                                                 </div>
                                             </div>
