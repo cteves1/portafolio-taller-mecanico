@@ -47,6 +47,10 @@ if(isset($_GET['msg'])){
             $alert_msg = "El usuario no fue agregado correctamente, el correo ya existe.";
             $alert_type = "danger";
             break;
+        case 8:
+            $alert_msg = "El newsletter fue agregado correctamente.";
+            $alert_type = "success";
+            break;
     }
 }
 
