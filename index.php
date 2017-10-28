@@ -175,7 +175,7 @@ if (isset($_COOKIE['id_admin'])) {
 
     <!-- Quienes somos Section -->
     <section id="quienessomos" class="col-md-12" style="color: black;">
-            <div class="row" style="display: flex; align-items: center; justify-content: center; padding: 3%;">
+            <div class="row mob" style="display: flex; align-items: center; justify-content: center; padding: 3%;">
             <div class="col-md-4">
                 <div class="imagen"><img src="img/arreglos.png" alt="" class="thumbnail imgs" style="max-width: 100%;"></div>
             </div>
@@ -184,8 +184,8 @@ if (isset($_COOKIE['id_admin'])) {
                 <p>Utilizamos nuestras herramientas para arreglar todo tipo de falla mecánico que tenga su auto, trabajamos con todas las marcas de automóviles y garantizamos un arreglo de calidad y bien detallado a la hora de terminar nuestro trabajo</p>
             </div>
         </div>
-        <div class="row" style="display: flex; align-items: center; justify-content: center; padding: 3%;">
-        <div class="col-md-6" style="padding-top: 50px; text-align: center;">
+        <div class="row" id="mant">
+            <div class="col-md-6" style="padding-top: 50px; text-align: center;">
                 <h1>Mantenimiento</h1>
                 <p>A su vez, controlamos su vehículo diariamente para que éste no disponga de fallas, de esta manera estará bien monitoreado y lo iremos a buscar en caso de que tenga que remolcarse. </p>
             </div>
@@ -214,7 +214,7 @@ if (isset($_COOKIE['id_admin'])) {
         <h3>¡El taller también dispone de productos!</h3>
           <div class="col-sm-6 col-md-4" style="text-align: center;">
             <div class="thumbnail">
-              <div class="producto"><img src="img/producto1.png" alt="..."></div>
+              <div class="producto"><img src="img/producto1.jpg" alt="..."></div>
               <div class="caption">
                 <h3>Neumáticos</h3>
                   <div class="producto_botones" style="padding-top: 50px;">
@@ -227,7 +227,7 @@ if (isset($_COOKIE['id_admin'])) {
 
           <div class="col-sm-6 col-md-4" style="text-align: center;">
             <div class="thumbnail">
-              <div class="producto"><img src="img/producto2.png" alt="..."></div>
+              <div class="producto"><img src="img/producto2.jpg" alt="..."></div>
               <div class="caption">
                 <h3>Amortiguadores</h3>
                 <div class="producto_botones" style="padding-top: 50px;">
@@ -240,7 +240,7 @@ if (isset($_COOKIE['id_admin'])) {
 
           <div class="col-sm-6 col-md-4" style="text-align: center;">
             <div class="thumbnail">
-              <div class="producto"><img src="img/producto3.png" alt="..."></div>
+              <div class="producto"><img src="img/producto3.jpg" alt="..."></div>
               <div class="caption">
                 <h3>Frenos</h3>
                 <div class="producto_botones" style="padding-top: 50px;">
@@ -250,7 +250,7 @@ if (isset($_COOKIE['id_admin'])) {
               </div>
             </div>
           </div>
-          <h2 class="btn btn-primary" style="font-size: 20px; margin-top: 5%;">Todos los productos</h2>
+            <a href="productos.php" class="btn btn-primary" style="font-size: 20px; margin-top: 5%;">Todos los productos</a>
         </div>
     </section>
 
